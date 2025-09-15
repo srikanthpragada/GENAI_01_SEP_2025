@@ -8,7 +8,7 @@ from langchain.schema import HumanMessage
  
 llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", 
                              temperature=0.9, 
-                             max_output_tokens=200,
+                             max_output_tokens=50,
                              model_kwargs= { "frequency_penalty": 1.5} )
                              
 
